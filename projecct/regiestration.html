@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gaming Tournament Registration</title>
+    <link rel="stylesheet" href="/projecct/project.css">
+</head>
+<body>
+
+<header>
+    <div class="container text-center">
+        <h1>Gaming Tournament Registration</h1>
+        <p>Welcome to the registration page! Fill in your details and get ready for the competition.</p>
+    </div>
+</header>
+
+<section class="registration-section">
+    <div class="container text-center">
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="game">Select Game:</label>
+                <select id="game" required>
+                    <option value="league">League of Legends</option>
+                    <option value="fortnite">Fortnite</option>
+                    <option value="valorant">Valorant</option>
+                    <option value="cod">Call of Duty</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Any Comments or Questions?</label>
+                <textarea id="comments" placeholder="Let us know if you have any special requests" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="cta-button"><a href="/projecct/mainpage.html">Register</a></button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Our Club. All Rights Reserved.</p>
+    <p>Follow us for more gaming news: <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+</footer>
+
+<script src="registration.js"></script>
+
+</body>
+</html>

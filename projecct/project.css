@@ -1,0 +1,287 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: url('https://www.example.com/your-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+header p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Event Section */
+.event-details {
+    background-color: #1c1c1c;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.event-details h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.event-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffdc00;
+}
+
+.cta-button {
+    background-color: #e63946;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d43536;
+}
+
+/* Registration Section */
+.registration-section {
+    background-color: #1c1c1c;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.registration-section form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.registration-section .form-group {
+    margin-bottom: 20px;
+}
+
+.registration-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.registration-section input,
+.registration-section select,
+.registration-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.registration-section button {
+    background-color: #e63946;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.registration-section button:hover {
+    background-color: #d43536;
+}
+
+/* Login Section */
+.login-section {
+    background-color: #1c1c1c;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.login-section input {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.login-section button {
+    background-color: #e63946;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.login-section button:hover {
+    background-color: #d43536;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form button {
+    background-color: #e63946;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #d43536;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #212121;
+    color: #bbb;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffdc00;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .event-details h2 {
+        font-size: 2rem;
+    }
+
+    .countdown {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+    }
+
+    .registration-section form,
+    .login-section form {
+        width: 90%;
+    }
+
+    .registration-section input,
+    .login-section input,
+    .registration-section select,
+    .registration-section textarea {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .registration-section button,
+    .login-section button {
+        font-size: 1.2rem;
+        padding: 12px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .event-details h2 {
+        font-size: 1.8rem;
+    }
+
+    .countdown {
+        font-size: 1.8rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .login-section input,
+    .registration-section input,
+    .registration-section select,
+    .registration-section textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .login-section button,
+    .registration-section button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
